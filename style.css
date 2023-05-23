@@ -1,0 +1,28 @@
+.left {
+  float: left;
+  width: 30%;
+  padding: 3%;
+  background: linear-gradient(-45deg, #E0BBE4, #957DAD, #D291BC, #FEC8D8, #FFDFD3, #bde0fe, #a2d2ff, #a2a3ff);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
+  height: 100vh;
+}
+
+.right{
+  float: left;
+  padding-left: 3%;
+  padding-top: 2.7%;
+  width: 70%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
